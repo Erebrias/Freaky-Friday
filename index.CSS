@@ -1,0 +1,112 @@
+h1{
+  font-family: sans-serif;
+  float:left;
+  background-color: #FA2D48;
+  border-radius: 10px;
+}
+.header{
+  float:left;
+  margin-right: 10px;
+}
+.underoverskrift{
+  font-size: 24px;
+}
+p{
+  font-family: Arial;
+  font-size: 17px;
+  margin-bottom: 15px;
+  margin-left: 20;
+}
+.paragraf{
+  margin-right: 400px;
+}
+.paragraf2{
+  margin-right: 400px;
+  border-radius: 10px;
+  border: 1px solid black;
+  padding:5px;
+
+}
+.overskrift{
+  font-size: 30px;
+  font-family: helvetica;
+}
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+footer{
+  margin-top: 20px;
+  font-size: 20px;
+  font-family: Arial;
+  padding-bottom: 20px;
+  background-color: lightblue;
+  height: 40px;
+  text-align: center;
+  box-shadow: 3px 0px 3px grey;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.navbar{
+  overflow:hidden;
+  background-color: #333;
+  font-family: Arial;
+  padding-top: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2) ;
+}
+.navbar a{
+  float: left;
+  font-size: 20px;
+  color:white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.dropdown{
+  float:left;
+  overflow: hidden;
+}
+.dropdown .dropbuttn{
+  font-size: 20px;
+  border: none;
+  outline:none;
+  color:white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+.navbar a:hover, .dropdown:hover .dropbuttn{
+  background-color: red;
+}
+.dropdown-innhold{
+  display:none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-innhold a{
+  float: none;
+  color:black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-innhold a:hover{
+  background-color: #ddd;
+}
+.dropdown:hover .dropdown-innhold{
+  display: block;
+}
